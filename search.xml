@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Begin Julialang</title>
+      <link href="/2019/01/31/Begin-Julialang/"/>
+      <url>/2019/01/31/Begin-Julialang/</url>
+      
+        <content type="html"><![CDATA[<p>Julia 一种新型通用动态编程语言，有很神奇的特性。也有一群有着独特需求的发起人，Julia发起于2009年、2012年定名为Julia、2013年有了第一版、0.7版大改一次，2018-08-08有了第一个稳定版，目前最新稳定版为<code>1.1.0</code>（2019/2/1）。</p><h3 id="引用一下这群人奇葩的想法"><a href="#引用一下这群人奇葩的想法" class="headerlink" title="引用一下这群人奇葩的想法"></a>引用一下这群人奇葩的想法</h3><blockquote><p>我们想要一种拥有自由许可的开源语言，同时拥有 C 的速度和 Ruby 的灵活。我们想要一种同像性语言，有像 Lisp 这样真正的宏，也有像 Matlab 这样的浅显熟悉的数学符号。我们想要一门像 Python 一样可用于通用编程，像 R 一样易于统计，像 Perl 一样自然地用于字符串处理，像 Matlab 一样强大的线性代数，像 shell 一样擅长将程序粘合在一起的语言。它简单易学，却能让严苛的黑客为之倾心。我们希望它是交互式的，具备可编译性。</p></blockquote><p>这基本上满足了我们所有的贪念，一种语言能让我们感受到多少东西和取舍呢，很期待!</p><h2 id="下面说一下语言的特性"><a href="#下面说一下语言的特性" class="headerlink" title="下面说一下语言的特性"></a>下面说一下语言的特性</h2><p>有Python一样的灵活，动态调式的方便；有Matlab类似的逻辑；接近C等静态语言的计算速度；原生的图形化包；可过程可函数也可以有个对象；简洁的继承关系、扩展语法。</p><p>和 R 语言一样原生支持Unicode字符，意味着可以写出类似于<code>速度=something</code> <code>δ=x₁-x₂</code> <code>∑=sum(list)</code>这样的类似于原生语义的奇葩代码。</p><p>她的扩展性不局限在语言设计的本身，设计之初就兼顾了调用其他语言的扩展功能，在开发者被采访的过程中自己也说了，没有取代任何其他语言的想法，包括<code>Python</code>在内，实际上每一门语言都有被设计的领域、原因，修改、妥协的理由。每一门语言都有自己的哲学，就像每个人都有自己的个性，为了她的优点就得接受她的缺点，若不能忍耐要么改她要么换一个语言。</p><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><p>暂且就不说了，没有大量使用前的总结都是空谈。来跟着我一起学习Julia吧。</p><h2 id="几个例子"><a href="#几个例子" class="headerlink" title="几个例子"></a>几个例子</h2><p>老习惯 <code>Hello Word</code>，为了体现原生编码优势改为 <code>Hello，中国！</code></p><figure class="highlight julia"><figcaption><span>hello Word</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env julia</span></span><br><span class="line">println(<span class="string">"Hello，中国！"</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 入坑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
